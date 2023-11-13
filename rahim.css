@@ -7,6 +7,11 @@
 body{
     font-family: 'Lobster', sans-serif;
 }
+img{
+    max-width: 100%;
+    display: block;
+    height: auto;
+}
 .section-1{
     background: url('rahim.jpeg');
     text-align: center;
@@ -65,4 +70,32 @@ body{
 }
 .section-2 h1:hover{
     text-shadow:15px 15px 10px black ;
+}
+.section-3{
+width: 250px;
+height: 250px;
+margin: 100px auto;
+background-color: brown;
+}
+.section-3:hover img{
+    transform: rotateY(34deg );
+    transition: 1s ;
+    transform: translate(23px,34px);
+}
+.box{
+    width:  600px;
+    height: 300px;
+    background-color: chocolate;
+    margin: 100px auto;
+    position: relative;
+}
+.inner-box{
+    width: 130px;
+    height: 130px;
+    background-color: black;
+    position: absolute ;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 700%;
 }
